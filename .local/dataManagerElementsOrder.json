@@ -1,0 +1,170 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "listOfString1&Flowchart_1",
+        "listOfStrings&Flowchart_1",
+        "strTOMATOMETER&Flowchart_1",
+        "strAUDIENCESCORE&Flowchart_1",
+        "strContinue&Flowchart_1",
+        "strRate&Flowchart_1",
+        "strDuration&Flowchart_1",
+        "strPG&Flowchart_1",
+        "strYear&Flowchart_1",
+        "strFilmName&Flowchart_1",
+        "strWebsite&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "IO_listStrFilms"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Get website from user.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_strWebsite"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FIlm Name.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_strFilmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SearchIMDb.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strFIlmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GetDataFromIMDb.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strAllData&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strRate",
+        "out_strDuration",
+        "out_strPG",
+        "out_strYear",
+        "out_strFilmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "printDataFromIMDb.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strRate",
+        "in_strDuration",
+        "in_strPG",
+        "in_strYear",
+        "in_strFilmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Want to Continue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_strContinue"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Close Browser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SearchRottenTomatto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strFilmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GetDataFromRottenTomatto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_strAUDIENCESCORE",
+        "out_strYear",
+        "out_strTOMATOMETER",
+        "out_strPG",
+        "out_strFilmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "PrintFromRottenTomatto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strAUDIENCESCORE",
+        "in_strPG",
+        "in_strTOMATOMETER",
+        "in_strYear",
+        "in_strFilmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Create Note.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Invoke Code.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Out_strListString",
+        "in_strYear",
+        "in_strFilmName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
